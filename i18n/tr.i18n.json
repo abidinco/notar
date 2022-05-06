@@ -1,0 +1,25 @@
+{
+	"appBar": {
+		"signButton": "OTURUM AÇ"
+	},
+	"signDialog": {
+		"loginTabButton": "GİRİŞ",
+		"registerTabButton": "KAYIT",
+
+		"registerUsernameFloating": "Kullanıcı adı seçin",
+		"registerUsernameHint": "Eşsiz olsun",
+		"registerPasswordFloating": "Parola belirleyin",
+		"registerPasswordHint": "En az 6 karakter",
+		"registerEmailFloating": "Email adresiniz",
+		"registerEmailHint": "Spamlamayız",
+
+		"loginUsernameHint": "Kullanıcı adı veya Email",
+		"loginPasswordHint": "Parola",
+
+		"forgot": "Unuttum?",
+
+		"loginButton": "GİRİŞ",
+		"registerButton": "KAYDOL"
+	},
+	"changeLanguage": "Dili Değiştir"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "one",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "apollo-client": "^0.10.1",
+    "babel-runtime": "^6.22.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.1",
+    "classnames": "^2.2.5",
+    "express": "^4.14.1",
+    "graphql": "^0.9.1",
+    "graphql-server-express": "^0.6.0",
+    "graphql-tag": "^1.2.4",
+    "graphql-tools": "^0.10.1",
+    "invariant": "^2.2.2",
+    "is_js": "^0.9.0",
+    "material-ui": "^0.17.0",
+    "meteor-node-stubs": "^0.2.5",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "react": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-addons-update": "^15.4.2",
+    "react-apollo": "^0.13.2",
+    "react-countup": "^1.3.0",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.11.0",
+    "react-komposer": "^2.0.0",
+    "react-mounter": "^1.2.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "sequelize": "^3.30.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seabey/one.git"
+  },
+  "author": "seabey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seabey/one/issues"
+  },
+  "homepage": "https://github.com/seabey/one#readme",
+  "description": ""
+}

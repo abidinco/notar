@@ -1,0 +1,105 @@
+.notar-question-box {
+	position: relative;
+	overflow: hidden;
+	padding: 1em 2em;
+	line-height: 1.5em;
+	max-width: 750px;
+	margin: 0 2em;
+	width: 100%;
+	.options {
+		& > div {
+			border-bottom: 1px solid rgba(52,73,94,.1);
+			padding: .5em 1em;
+			margin: .5em 0;
+			border-radius: 10px;
+			& > div {
+				line-height: 1.4em;
+			}
+		}
+		span {
+			margin-right: 1em;
+			color: #757575;
+		}
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	span.question-number {
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+		display: inline-block;
+		transform: rotate(-10deg);
+		font-size: 4em;
+		color: rgba(52, 73, 94,0.3);
+		font-family: serif;
+	}
+}
+
+.notar-below-question-box {
+	max-width: 750px;
+	margin: 0 2em 3em;
+	background-color: rgba(189, 195, 199,0.3);
+	border-radius: 0 0 4px 4px;
+	padding: 0.5em 2em 0.5em 0.5em;
+	width: 100%;
+	color: #7f8c8d;
+}
+
+.notar-comment-box {
+	position: relative;
+	overflow: hidden;
+	padding: 1em 2em;
+	line-height: 1.5em;
+	max-width: 750px;
+	margin: 1em;
+
+	span.timeago {
+		right: 10px;
+		top: 8px;
+		color: #95a5a6;
+		font-size: 0.8em;
+		position: absolute;
+	}
+
+	&.sub {
+		margin-left: 7em;
+	}
+}
+.notar-docs-filter-section {
+	background-color: rgb(236, 240, 241);
+	padding: 1em 2em;
+	border-radius: 5px;
+	margin: 1em 0;
+	overflow-y: auto;
+}
+.notar-documents-list-item {
+	padding: .5em 1em;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 3px;
+	margin: 0 0 1.56em 0;
+}
+.notar-documents-page-toggle {
+	padding: .5em .75em;
+	background-color: rgb(255, 255, 255);
+	margin: 0 .3em;
+	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+	&:extend(.w-ease-35);
+	border-radius: 3px;
+	&:hover {
+		cursor: pointer;
+	}
+	&.toggled {
+		box-shadow: rgba(0, 0, 0, 0.188235) 0px 10px 30px, rgba(0, 0, 0, 0.227451) 0px 6px 10px;
+		background-color: rgb(0, 188, 212);
+		color: rgb(255, 255, 255);
+	}
+}
+.w-ease-35 {
+	-webkit-transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-o-transition: all .35s ease-in-out;
+	transition: all .35s ease-in-out;
+}

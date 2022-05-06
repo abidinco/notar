@@ -1,0 +1,25 @@
+{
+	"appBar": {
+		"signButton": "Sign in"
+	},
+	"signDialog": {
+		"loginTabButton": "Login",
+		"registerTabButton": "Register",
+
+		"registerUsernameFloating": "Pick an username",
+		"registerUsernameHint": "Be attractive",
+		"registerPasswordFloating": "Password",
+		"registerPasswordHint": "At least 6 characters",
+		"registerEmailFloating": "Email address",
+		"registerEmailHint": "We won't spam or idk",
+
+		"loginUsernameHint": "Username or Email",
+		"loginPasswordHint": "Password",
+
+		"forgot": "Forget?",
+
+		"loginButton": "Login",
+		"registerButton": "Register"
+	},
+	"changeLanguage": "Change Language"
+}
